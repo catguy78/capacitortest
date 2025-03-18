@@ -1,0 +1,18 @@
+{
+  "appId": "com.testapplication.app",
+  "appName": "Test Application",
+  "webDir": "dist",
+  "server": { 
+      "hostname": "www.testapplication.com",
+      "androidScheme": "https"
+  },
+  "android": {
+    "signingConfig": {
+      "storeFile": "test.jks",
+      "storePassword": "1234567",
+      "keyAlias": "test",
+      "keyPassword": "1234567"
+    }
+  }
+}
+ 

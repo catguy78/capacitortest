@@ -1,0 +1,28 @@
+{
+  "name": "Testing Capacitor",
+  "version": "1.0",
+  "author": "",
+  "main": "assets/js/main.js",
+  "engines": {
+    "node": ">=0.9.0"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.1.0",
+    "@capacitor/app": "^7.0.0",
+    "@capacitor/core": "^7.1.0",
+    "@capacitor/dialog": "^7.0.0",
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-replace": "^6.0.2",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.36.0",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-strip-code": "^0.2.8"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.1.0"
+  }
+}
