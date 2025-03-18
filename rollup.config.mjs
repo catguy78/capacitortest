@@ -28,6 +28,10 @@ function buildAndroid(src, dist, name, chosenPlugins){
   return {
       input: src,
       output: { 
+        paths: { 
+          '@capacitor/core' : '../../node_modules/@capacitor/core/dist/index.js', 
+          '@capacitor/app-launcher': '../../node_modules/@capacitor/app/dist/esm/index.js'
+        },
         file: dist,
         format: 'es',
         name: name
